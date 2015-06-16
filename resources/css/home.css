@@ -1,10 +1,19 @@
 
+* {
+    /* With these codes padding and border does not increase it's width and gives intuitive style.*/
+  
+	-webkit-box-sizing: border-box;   
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}	
+
 @font-face{
    font-family: 'Asap-Regular';
    src: url("../fonts/Asap-Regular.otf");}
 @font-face{
    font-family: 'Asap-Bold';
    src: url("../fonts/Asap-Bold.otf");}
+
 body{
 	font-family: Asap-Regular;
 }
@@ -27,7 +36,12 @@ header{
 	width: 100%;
 }
 header a{
+	font-family: 'Asap-Bold';
+	color:#999999;
 	text-decoration: none;
+}
+header li:last-child{
+	margin-left: 8px;
 }
 .nav_bar{
 	margin-top: -8px;
@@ -57,4 +71,87 @@ li.facebook_icon, li.twitter_icon{
 	background-size: 30px 30px;		
 	float: left;
 	 margin-left: 8px;
+}
+footer ul{
+	  margin: 35px auto;
+  width: 14%;
+  height: 41px;
+}
+/*********/
+#section-1{
+	background: url('../../views/images/bg1_repeat.png');
+	text-align: center;
+}
+#content-1{
+	padding: 7% 0px;
+	margin:auto;
+	width: 50%;
+	font-family: 'Asap-Bold';
+	font-size: 52px;
+	color: #FFF;
+}
+body{
+	overflow-x: hidden;
+}
+form{
+	display: block;
+	height:60px;
+	width:35%;
+	margin:4% auto;
+}  
+
+/* Makes responsive fields.Sets size and field alignment.*/
+
+input#field1 {
+	float: left;
+	display: inline;
+    height: 60px;
+    width: 80%;
+    border: 1px hidden;
+    border-radius: 30px 0px 0px 30px;
+    background-color: #EE8277;
+    opacity: 0.8;
+    font-family: "Asap-Regular";
+    font-size: 20.3px;
+    padding-left: 48px;
+    outline: medium none;
+    color: #FFF;
+    }
+input#button-ok {
+	float: left;
+	display: inline;
+    height: 60px;
+    background-color: #2ECC71;
+    border: 1px hidden;
+    width: 20%;
+    border-radius: 0px 30px 30px 0px;
+    outline: medium none;
+    padding: 0;
+    margin: 0;
+}
+  
+input[value] {
+    color: #FFF;
+    font-family: 'Asap-Regular';
+    font-size: 20.3px;
+}
+#content-2{
+	width: 45%;
+	margin:auto;
+	font-family: 'Asap-Regular';
+	font-size: 24px;
+	color: #FFF;
+	padding: 0% 7%;
+}
+#content-3 {
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #FFF;
+   /* padding: 16% 0px 0px;*/
+}
+#section-4{
+	background: url('../../views/images/bg2.png');
+}
+#down-arrow{
+	margin-top: 40px;
 }
