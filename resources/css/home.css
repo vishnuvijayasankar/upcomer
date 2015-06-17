@@ -28,6 +28,7 @@ body{
 	float: right;
 }
 header{
+	z-index: 2;
 	border-bottom: 1px solid #F5F5F5;
 	height: 62px;
 	position: fixed;
