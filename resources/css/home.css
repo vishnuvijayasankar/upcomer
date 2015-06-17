@@ -18,10 +18,12 @@ html{
    src: url("../fonts/Asap-Bold.otf");}
 
 body{
+
 	overflow-y: scroll;
 	font-family: Asap-Regular;
 	margin: 0 auto;
-	width:1294px;
+	width:100%;
+	max-width: 1294px;
 	left:0;
 	right:0;
 }
@@ -41,7 +43,7 @@ header{
 	position: fixed;
 	top: 0;
 	background-color: #fff;
-	width: 1294px;
+	width: 100%;
 	box-shadow: 0 1px 3px #DFDCDC;
 }
 header a{
@@ -113,7 +115,9 @@ form{
 	color: #FFF;
 }  
 
-/* Makes responsive fields.Sets size and field alignment.*/
+#homeWrap{
+	margin-top: 62px;
+}
 
 input#field1 {
 	float: left;
@@ -185,27 +189,35 @@ input[value] {
     margin: 0px 30%;
 }
 #section2-image{
-	text-align: center;
+	width:100%;
+
 }
 #section-3{
 	text-align: center;
-	padding: 230px;
+	padding: 12%;
+	padding-bottom: 15%;
 	padding-top: 100px;
 	background-color: #F5F5F5;
 
 }
 #maincontent-1{
 	text-align: left;
-	padding-top: 100px;
 
 }
 #section-3image1{
 	float: left;
-		margin: 35px;
+		margin-right: 35px;
+		width: 40%;
+		min-width: 250px;
+		margin-bottom: 20px;
+
 }
 #section-3image2{
 	float: right;
-	margin: 35px;
+	margin-left: 35px;
+	width: 40%;
+	min-width: 250px;
+	margin-bottom: 20px;
 }
 #section-3content1{
 height: 300px;
@@ -217,6 +229,9 @@ height: 300px;
     font-family: 'Asap-Bold';
     font-size: 36px;
     color: #333;
+    margin-bottom: 0;
+    display: inline-block;
+    margin: 10px;
 }
 .section-3content {
     font-family: 'Asap-Regular';
@@ -229,9 +244,40 @@ height: 300px;
     font-family: 'Asap-Bold';
     font-size: 36px;
     color: #333;
-    padding-top: 18%;
+    padding-top: 50px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 0;
 }
 #maincontent-2{
 	text-align: right;
 
+}
+#section-4main {
+    width: 70%;
+    margin: 0px auto;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+}
+#section-4content1 {
+    font-family: "Asap-Regular";
+    font-size: 24px;
+    color: #FFF;
+    width: 92%;
+    margin: 0px auto;
+    text-align: center;
+}
+#sub-content {
+    font-family: 'Asap-Regular';
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 17px;
+    margin-top: 75px;
+}
+#sub-content2{
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #FFF;
 }
