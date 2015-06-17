@@ -6,7 +6,10 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }	
-
+html{
+	min-width: 320px;
+	font-size-adjust: 0.5;
+}
 @font-face{
    font-family: 'Asap-Regular';
    src: url("../fonts/Asap-Regular.otf");}
@@ -15,6 +18,8 @@
    src: url("../fonts/Asap-Bold.otf");}
 
 body{
+	background: none repeat scroll 0% 0% ;
+	overflow-y: scroll;
 	font-family: Asap-Regular;
 	margin: 0;
 }
@@ -99,13 +104,14 @@ footer ul{
 	color: #FFF;
 }
 body{
+	margin: 0;
 	overflow-x: hidden;
 }
 form{
 	display: block;
 	height:60px;
 	width: 350px;
-	margin:4% auto;
+	margin:2% auto;
 }  
 
 /* Makes responsive fields.Sets size and field alignment.*/
@@ -144,7 +150,7 @@ input[value] {
     font-size: 20.3px;
 }
 #content-2{
-	width: 45%;
+	width: 60%;
 	margin:auto;
 	font-family: 'Asap-Regular';
 	font-size: 24px;
@@ -162,4 +168,19 @@ input[value] {
 }
 #down-arrow{
 	margin-top: 40px;
+	height: 80px;
+}
+#section2content-1 {
+	text-align: center;
+    font-family: "Asap-Bold";
+    font-size: 36px;
+    color: #333;
+    padding: 7% 0px 0px;
+}
+#section2content-2 {
+    font-family: "Asap-Regular";
+    font-size: 20px;
+    color: #999;
+    padding: 3% 0px 0px;
+    margin: 0px 30%;
 }
