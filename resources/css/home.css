@@ -59,6 +59,7 @@ header{
 	background-color: #fff;
 	width: 100%;
 	box-shadow: 0 1px 3px #DFDCDC;
+	left:0;
 }
 header a{
 	font-family: 'Asap-Bold';
