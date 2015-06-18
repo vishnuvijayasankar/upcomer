@@ -18,11 +18,15 @@ html{
    src: url("../fonts/Asap-Bold.otf");}
 
 body{
-	background: none repeat scroll 0% 0% ;
+
 	overflow-y: scroll;
 	font-family: Asap-Regular;
-	margin: 0;
+	margin: 0 auto;
 	margin-top: 62px;
+	width:100%;
+    max-width: 1680px;
+	left:0;
+	right:0;
 }
 .container_wrap{
 	max-width: 70%;
@@ -52,9 +56,10 @@ header{
 	height: 62px;
 	position: fixed;
 	top: 0;
+	left:0;
 	background-color: #fff;
-	box-shadow: 0 1px 3px #DFDCDC;
 	width: 100%;
+	box-shadow: 0 1px 3px #DFDCDC;
 }
 header a{
 	font-family: 'Asap-Bold';
@@ -117,41 +122,63 @@ footer ul{
 	float: right;
 	padding: 4%;
 }
-
 .about_content2{
 	float: left;
 	background-color: #f5f5f5;
 	margin-top: -40px;
-}
-.about_content2 .description {
-	background-color: white;
-	padding: 6%;
-	border-radius: 15px;
-	width: 88%;
+	width: 100%;
 }
 .about_content2 h3 {
 	margin: 0;
 	margin-bottom: 4%;
 }
-.sub_wrap_left{
+.sub_wrap_left,.sub_wrap_last{
+	width:50%;
 	float: left;
-	width: 49.5%;
 	position: relative;
-}
-.sub_wrap_left .description {
-	margin-top: 30px;
-	margin-bottom: 80px;
+	border-right: 7px solid white;
 }
 .sub_wrap_right {
-	position: relative;
 	float: right;
-	width: 50.5%;
-	padding-top: 126px;
-	border-left: 7px solid white;
+	width: 50%;
+	position: relative;
 }
-.sub_wrap_right .description{
-	margin-left: 13%;
-	margin-bottom: 80px;
+.about_content2 .container_wrap .sub_wrap_right:nth-child(3) {
+  margin-top: 118px;
+}
+.sub_wrap_last{
+	height: 155px;
+}
+.sub_wrap_left .description, .sub_wrap_right .description  {
+	background-color: #fff;
+	padding: 20px 25px;
+	margin: 50px 10px;
+	position: relative;
+	border-radius: 10px;
+}
+.sub_wrap_left .description {
+	float: left;
+	width: 88%;
+	height: 140px;
+}
+.sub_wrap_right .description {
+	float: right;
+	width: 88%;
+	height: 140px;
+}
+.tooltip{
+	border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;
+	position: absolute;
+	top: 44%;
+}
+.sub_wrap_left .tooltip{
+	right:29px;
+	border-left: 20px solid #fff;
+}
+.sub_wrap_right .tooltip{
+	left:30px;
+	border-right: 20px solid #fff;
 }
 #circle_2014, #circle_now{
 	border: 7px solid #fff;
@@ -185,33 +212,28 @@ footer ul{
 	height: 50px;
 	border-radius: 40px;
 	z-index: 1;
+	top: 39%;
 }
-.sub_wrap_left .circle:nth-child(2){
+.about_content2 .sub_wrap_left:nth-child(2) .circle{
 	background-color: #ffc3bd;
-	top: 83px;
 	left: 95%;
-}
-.sub_wrap_left .circle:nth-child(5){
+ }
+ .about_content2 .sub_wrap_left:nth-child(4) .circle{
+	background-color:#ed8074;
+	left: 95%;
+ }
+ .about_content2 .sub_wrap_right:nth-child(3) .circle{
 	background-color: #fa9d93;
-	top: 189px;
-	left: 95%;
-}
-.sub_wrap_right .circle:nth-child(2){
-	background-color: #ed8074;
-	top: 300px;
 	right: 95%;
-}
-.sub_wrap_right .circle:nth-child(5){
+ }
+ .about_content2 .sub_wrap_right:nth-child(5) .circle{
 	background-color: #ec675a;
-	top: 415px;
 	right: 95%;
-}
- 
+ }
 .about_content3{
 	float: left;
 	text-align: center;
 	margin-bottom: 120px;
-
 }
 .about_content3 p {
   padding: 0 4%;
@@ -258,18 +280,17 @@ footer ul{
 	font-size: 52px;
 	color: #FFF;
 }
-body{
-	margin: 0;
-	overflow-x: hidden;
-}
 form{
 	display: block;
 	height:60px;
 	width: 350px;
 	margin:2% auto;
+	color: #FFF;
 }  
 
-/* Makes responsive fields.Sets size and field alignment.*/
+#homeWrap{
+	margin-top: 62px;
+}
 
 input#field1 {
 	float: left;
@@ -333,9 +354,103 @@ input[value] {
     padding: 7% 0px 0px;
 }
 #section2content-2 {
+	text-align: center;
     font-family: "Asap-Regular";
     font-size: 20px;
     color: #999;
     padding: 3% 0px 0px;
     margin: 0px 30%;
+}
+#section2-image{
+	width:100%;
+
+}
+#section-3{
+	text-align: center;
+	padding: 12%;
+	padding-bottom: 15%;
+	padding-top: 100px;
+	background-color: #F5F5F5;
+
+}
+#maincontent-1{
+	text-align: left;
+
+}
+#section-3image1{
+	float: left;
+		margin-right: 35px;
+		width: 40%;
+		min-width: 250px;
+		margin-bottom: 20px;
+
+}
+#section-3image2{
+	float: right;
+	margin-left: 35px;
+	width: 40%;
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+#section-3content1{
+height: 300px;
+}
+#section-3content2{
+height: 300px;
+}
+.content_h1 {
+    font-family: 'Asap-Bold';
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 0;
+    display: inline-block;
+    margin: 10px;
+}
+.section-3content {
+    font-family: 'Asap-Regular';
+    font-size: 20px;
+    color: #999;
+    padding: 0;
+    padding-top: 4%;
+}
+.content_h2 {
+    font-family: 'Asap-Bold';
+    font-size: 36px;
+    color: #333;
+    padding-top: 50px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+#maincontent-2{
+	text-align: right;
+
+}
+#section-4main {
+    width: 70%;
+    margin: 0px auto;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+}
+#section-4content1 {
+    font-family: "Asap-Regular";
+    font-size: 24px;
+    color: #FFF;
+    width: 92%;
+    margin: 0px auto;
+    text-align: center;
+}
+#sub-content {
+    font-family: 'Asap-Regular';
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 17px;
+    margin-top: 75px;
+}
+#sub-content2{
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #FFF;
 }
