@@ -18,13 +18,12 @@ html{
    src: url("../fonts/Asap-Bold.otf");}
 
 body{
-
 	overflow-y: scroll;
 	font-family: Asap-Regular;
-	margin: 0 auto;
 	margin-top: 62px;
+	margin: 0 auto;
 	width:100%;
-    max-width: 1680px;
+	max-width: 1294px;
 	left:0;
 	right:0;
 }
@@ -56,10 +55,10 @@ header{
 	height: 62px;
 	position: fixed;
 	top: 0;
-	left:0;
 	background-color: #fff;
 	width: 100%;
 	box-shadow: 0 1px 3px #DFDCDC;
+	left:0;
 }
 header a{
 	font-family: 'Asap-Bold';
@@ -82,9 +81,20 @@ header li:last-child a {
 	margin: 0 auto;
 	margin-top: 15px;
 }
+#title_img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
 .social{
 	margin-top: -52px;
 }
+.social2{
+	margin-top: -20px;
+}
+
+
 .link{
 	list-style: none;
     display: inline;
@@ -269,188 +279,311 @@ footer ul{
 }
 /*********/
 #section-1{
-	background: url('../../views/images/bg1_repeat.png');
-	text-align: center;
+background: url('../../views/images/bg1_repeat.png');
+text-align: center;
 }
 #content-1{
-	padding: 7% 0px;
-	margin:auto;
-	width: 50%;
-	font-family: 'Asap-Bold';
-	font-size: 52px;
-	color: #FFF;
+padding: 7% 0px;
+margin:auto;
+width: 50%;
+font-family: 'Asap-Bold';
+font-size: 52px;
+color: #FFF;
 }
 form{
-	display: block;
-	height:60px;
-	width: 350px;
-	margin:2% auto;
-	color: #FFF;
-}  
-
+display: block;
+height:60px;
+width: 350px;
+margin:2% auto;
+color: #FFF;
+}
 #homeWrap{
-	margin-top: 62px;
+margin-top: 62px;
 }
-
 input#field1 {
-	float: left;
-	display: inline;
-    height: 60px;
-    width: 269px;
-    border: 1px hidden;
-    border-radius: 30px 0px 0px 30px;
-    background-color: #EE8277;
-    opacity: 0.8;
-    font-family: "Asap-Regular";
-    font-size: 20.3px;
-    padding-left: 48px;
-    outline: medium none;
-    color: #FFF;
-    }
-input#button-ok {
-	float: left;
-	display: inline;
-    height: 60px;
-    background-color: #2ECC71;
-    border: 1px hidden;
-    width: 81px;
-    border-radius: 0px 30px 30px 0px;
-    outline: medium none;
-    padding: 0;
-    margin: 0;
+float: left;
+display: inline;
+height: 60px;
+width: 269px;
+border: 1px hidden;
+border-radius: 30px 0px 0px 30px;
+background-color: #EE8277;
+opacity: 0.8;
+font-family: "Asap-Regular";
+font-size: 20.3px;
+padding-left: 48px;
+outline: medium none;
+color: #FFF;
 }
-  
+input#button-ok {
+float: left;
+display: inline;
+height: 60px;
+background-color: #2ECC71;
+border: 1px hidden;
+width: 81px;
+border-radius: 0px 30px 30px 0px;
+outline: medium none;
+padding: 0;
+margin: 0;
+}
 input[value] {
-    color: #FFF;
-    font-family: 'Asap-Regular';
-    font-size: 20.3px;
+color: #FFF;
+font-family: 'Asap-Regular';
+font-size: 20.3px;
 }
 #content-2{
-	width: 60%;
-	margin:auto;
-	font-family: 'Asap-Regular';
-	font-size: 24px;
-	color: #FFF;
-	padding: 0% 7%;
+width: 60%;
+margin:auto;
+font-family: 'Asap-Regular';
+font-size: 24px;
+color: #FFF;
+padding: 0% 7%;
 }
 #content-3 {
-    font-family: 'Asap-Regular';
-    font-size: 16px;
-    color: #FFF;
-   /* padding: 16% 0px 0px;*/
+font-family: 'Asap-Regular';
+font-size: 16px;
+color: #FFF;
+/* padding: 16% 0px 0px;*/
 }
 #section-4{
-	background: url('../../views/images/bg2.png');
+background: url('../../views/images/bg2.png');
 }
 #down-arrow{
-	margin-top: 40px;
-	height: 80px;
+margin-top: 40px;
+height: 80px;
 }
 #section2content-1 {
-	text-align: center;
-    font-family: "Asap-Bold";
-    font-size: 36px;
-    color: #333;
-    padding: 7% 0px 0px;
+text-align: center;
+font-family: "Asap-Bold";
+font-size: 36px;
+color: #333;
+padding: 7% 0px 0px;
 }
 #section2content-2 {
-	text-align: center;
-    font-family: "Asap-Regular";
-    font-size: 20px;
-    color: #999;
-    padding: 3% 0px 0px;
-    margin: 0px 30%;
+text-align: center;
+font-family: "Asap-Regular";
+font-size: 20px;
+color: #999;
+padding: 3% 0px 0px;
+margin: 0px 30%;
 }
 #section2-image{
-	width:100%;
-
+width:100%;
 }
 #section-3{
-	text-align: center;
-	padding: 12%;
-	padding-bottom: 15%;
-	padding-top: 100px;
-	background-color: #F5F5F5;
-
+text-align: center;
+padding: 15%;
+padding-bottom: 10%;
+padding-top: 100px;
+background-color: #F5F5F5;
 }
 #maincontent-1{
-	text-align: left;
-
+text-align: left;
 }
 #section-3image1{
-	float: left;
-		margin-right: 35px;
-		width: 40%;
-		min-width: 250px;
-		margin-bottom: 20px;
-
+float: left;
+margin-right: 35px;
+width: 48%;
+min-width: 300px;
+margin-bottom: 20px;
 }
 #section-3image2{
-	float: right;
-	margin-left: 35px;
-	width: 40%;
-	min-width: 250px;
-	margin-bottom: 20px;
+float: right;
+margin-left: 35px;
+width: 40%;
+min-width: 300px;
+margin-bottom: 20px;
 }
 #section-3content1{
 height: 300px;
 }
 #section-3content2{
 height: 300px;
+margin-top: 10%;
 }
 .content_h1 {
-    font-family: 'Asap-Bold';
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 0;
-    display: inline-block;
-    margin: 10px;
+font-family: 'Asap-Bold';
+font-size: 36px;
+color: #333;
+margin-bottom: 0;
+display: inline-block;
+margin: 10px;
 }
 .section-3content {
-    font-family: 'Asap-Regular';
-    font-size: 20px;
-    color: #999;
-    padding: 0;
-    padding-top: 4%;
+font-family: 'Asap-Regular';
+font-size: 20px;
+color: #999;
+padding: 0;
+padding-top: 4%;
 }
 .content_h2 {
-    font-family: 'Asap-Bold';
-    font-size: 36px;
-    color: #333;
-    padding-top: 50px;
-    padding: 10px;
-    display: inline-block;
-    margin-bottom: 0;
+font-family: 'Asap-Bold';
+font-size: 36px;
+color: #333;
+padding-top: 50px;
+padding: 10px;
+display: inline-block;
+margin-bottom: 0;
 }
 #maincontent-2{
-	text-align: right;
-
+text-align: right;
 }
 #section-4main {
-    width: 70%;
-    margin: 0px auto;
-    padding: 5%;
-    position: relative;
-    text-align: center;
+width: 70%;
+margin: 0px auto;
+padding: 5%;
+position: relative;
+text-align: center;
 }
 #section-4content1 {
-    font-family: "Asap-Regular";
-    font-size: 24px;
-    color: #FFF;
-    width: 92%;
-    margin: 0px auto;
-    text-align: center;
+font-family: "Asap-Regular";
+font-size: 24px;
+color: #FFF;
+width: 92%;
+margin: 0px auto;
+text-align: center;
 }
 #sub-content {
-    font-family: 'Asap-Regular';
-    font-size: 24px;
-    color: #FFF;
-    text-align: center;
-    padding-bottom: 17px;
-    margin-top: 75px;
+font-family: 'Asap-Regular';
+font-size: 24px;
+color: #FFF;
+text-align: center;
+padding-bottom: 17px;
+margin-top: 75px;
 }
 #sub-content2{
-    font-family: 'Asap-Regular';
-    font-size: 16px;
-    color: #FFF;
+font-family: 'Asap-Regular';
+font-size: 16px;
+color: #FFF;
+}
+@media (max-width: 930px) {
+#section-3image1{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+position: absolute;
+display: block;
+margin-top: 25%;
+}
+#section-3image2{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+position: absolute;
+display: block;
+margin-top: 40%;
+}
+#section-3content2{
+margin-top: 230px;
+position: relative;
+}
+.content_h1{
+text-align: center;
+}
+.section-3content{
+text-align: center;
+float: left;
+width: 100%;
+}
+#section-3{
+padding-bottom: 28%;
+}
+}
+@media (max-width: 830px) {
+#section-3content2{
+margin-top: 30%;
+}
+}
+@media (max-width: 600px) {
+#section-3image1{
+margin-top: 35%;
+}
+@media (max-width: 460px) {
+#section-3content2{
+margin-top: 35%;
+}
+#section-3{
+padding-bottom: 38%;
+}
+}
+@media (max-width: 650px) {
+#section-3content2{
+margin-top: 30%;
+}
+}
+@media (max-width: 550px) {
+#section-3image1{
+margin-top: 45%;
+}
+#section-3image2{
+margin-top: 50%;
+}
+}
+@media (max-width: 450px) {
+#section-3image1{
+margin-top: 40%;
+}
+#section-3image2{
+margin-top: 60%;
+}
+#section-3content2{
+margin-top: 40%;
+position: none;
+}
+}
+@media (max-width: 450px) {
+#section-3image1{
+margin-top: 45%;
+}
+#section-3image2{
+margin-top: 70%;
+}
+}
+@media (max-width: 400px) {
+#section-3image1{
+margin-top: 60%;
+}
+#section-3image2{
+margin-top: 90%;
+}
+}
+@media (max-width: 360px) {
+#section-3image1{
+margin-top: 80%;
+}
+#section-3image2{
+margin-top: 90%;
+}
+#section-3content2{
+margin-top: 55%;
+position: none;
+}
+}
+@media (max-width: 700px) {
+div.social{
+display: none;
+}
+div.social2{
+display: none;
+}
+div.nav_bar{
+width: 100%;
+z-index: 999;
+}
+div.nav_bar ul{
+width: 100%;
+}
+div.nav_bar ul #aboutLink {
+float: right;
+}
+}
+@media (max-width: 380px) {
+div.nav_bar ul{
+display: none;
+}
 }
