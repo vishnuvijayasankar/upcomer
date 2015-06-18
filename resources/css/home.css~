@@ -216,11 +216,11 @@ footer ul{
 }
 .about_content2 .sub_wrap_left:nth-child(2) .circle{
 	background-color: #ffc3bd;
-	left: 95%;
+	left: 96%;
  }
  .about_content2 .sub_wrap_left:nth-child(4) .circle{
 	background-color:#ed8074;
-	left: 95%;
+	left: 96%;
  }
  .about_content2 .sub_wrap_right:nth-child(3) .circle{
 	background-color: #fa9d93;
