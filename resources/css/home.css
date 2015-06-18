@@ -20,8 +20,8 @@ html{
 body{
 	overflow-y: scroll;
 	font-family: Asap-Regular;
-	margin-top: 62px;
 	margin: 0 auto;
+	margin-top: 62px;
 	width:100%;
 	max-width: 1294px;
 	left:0;
