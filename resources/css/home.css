@@ -508,7 +508,7 @@ margin-top: 35%;
 margin-top: 35%;
 }
 #section-3{
-padding-bottom: 38%;
+padding-bottom: 50%;
 }
 }
 @media (max-width: 650px) {
@@ -529,7 +529,7 @@ margin-top: 50%;
 margin-top: 40%;
 }
 #section-3image2{
-margin-top: 60%;
+margin-top: 85%;
 }
 #section-3content2{
 margin-top: 40%;
@@ -554,13 +554,13 @@ margin-top: 90%;
 }
 @media (max-width: 360px) {
 #section-3image1{
-margin-top: 80%;
+margin-top: 90%;
 }
 #section-3image2{
 margin-top: 90%;
 }
 #section-3content2{
-margin-top: 55%;
+margin-top: 65%;
 position: none;
 }
 }
