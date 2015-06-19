@@ -28,7 +28,7 @@ body{
 	right:0;
 }
 .container_wrap{
-	max-width: 70%;
+	max-width: 85%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -123,19 +123,22 @@ footer ul{
 	padding: 0;
 	height: 41px;
 }
-.about_content1 .description{
+.about_content1 .description {
 	float: left;
-	padding: 1%;
-	width: 50%;
+	width: 65%;
+}
+.about_content1 p, .about_content3 p{
+	line-height: 1.5em;
 }
 .about_content1 .desc_image{
 	float: right;
-	padding: 4%;
+	padding-right: 12px;
+	padding-top: 18px;
 }
 .about_content2{
 	float: left;
 	background-color: #f5f5f5;
-	margin-top: -40px;
+  	margin-top: -3px;
 	width: 100%;
 }
 .about_content2 h3 {
@@ -183,11 +186,11 @@ footer ul{
 	top: 44%;
 }
 .sub_wrap_left .tooltip{
-	right:29px;
+	right:35px;
 	border-left: 20px solid #fff;
 }
 .sub_wrap_right .tooltip{
-	left:30px;
+	left:36px;
 	border-right: 20px solid #fff;
 }
 #circle_2014, #circle_now{
@@ -226,19 +229,19 @@ footer ul{
 }
 .about_content2 .sub_wrap_left:nth-child(2) .circle{
 	background-color: #ffc3bd;
-	left: 95%;
+	left: 96%;
  }
  .about_content2 .sub_wrap_left:nth-child(4) .circle{
 	background-color:#ed8074;
-	left: 95%;
+	left: 96%;
  }
  .about_content2 .sub_wrap_right:nth-child(3) .circle{
 	background-color: #fa9d93;
-	right: 95%;
+	right: 96%;
  }
  .about_content2 .sub_wrap_right:nth-child(5) .circle{
 	background-color: #ec675a;
-	right: 95%;
+	right: 96%;
  }
 .about_content3{
 	float: left;
@@ -268,10 +271,15 @@ footer ul{
 	background-color: #333333;
 
 }
+.tag_wrap{
+	width: 590px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
 #upcomer_tag img{
 	width: 50%;
 }
-#upcomer_tag span{
+/*#upcomer_tag span{
 	color: #fff;
 	font-size: 48px;
 	font-family: Asap-Bold;
@@ -279,6 +287,18 @@ footer ul{
 	top: 50%;
 	transform: translate(0px, -50%);
 	margin-left: -65px;
+	float: left;
+	margin-left: -100px;
+}*/
+#upcomer_tag span {
+	color: #fff;
+	font-size: 48px;
+	font-family: Asap-Bold;
+	text-align: center;
+	width: 100%;
+	margin-top: -179px;
+	float: left;
+>>>>>>> e88087d2abb5ddff5e0b41a93cbf627198ebcbe2
 }
 /*********/
 #section-1{
