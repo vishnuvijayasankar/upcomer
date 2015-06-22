@@ -165,19 +165,15 @@ footer ul{
 .sub_wrap_left .description, .sub_wrap_right .description  {
 	background-color: #fff;
 	padding: 20px 25px;
-	margin: 50px 10px;
+	margin: 50px 55px;
 	position: relative;
 	border-radius: 10px;
 }
 .sub_wrap_left .description {
 	float: left;
-	width: 88%;
-	height: 140px;
 }
 .sub_wrap_right .description {
 	float: right;
-	width: 88%;
-	height: 140px;
 }
 .tooltip{
 	border-bottom: 15px solid transparent;
@@ -229,19 +225,19 @@ footer ul{
 }
 .about_content2 .sub_wrap_left:nth-child(2) .circle{
 	background-color: #ffc3bd;
-	left: 96%;
+	right: -29px;
  }
  .about_content2 .sub_wrap_left:nth-child(4) .circle{
 	background-color:#ed8074;
-	left: 96%;
+	right: -29px;
  }
  .about_content2 .sub_wrap_right:nth-child(3) .circle{
 	background-color: #fa9d93;
-	right: 96%;
+	  left: -29px;
  }
  .about_content2 .sub_wrap_right:nth-child(5) .circle{
 	background-color: #ec675a;
-	right: 96%;
+	left: -29px;
  }
 .about_content3{
 	float: left;
@@ -298,7 +294,6 @@ footer ul{
 	width: 100%;
 	margin-top: -179px;
 	float: left;
->>>>>>> e88087d2abb5ddff5e0b41a93cbf627198ebcbe2
 }
 /*********/
 #section-1{
@@ -565,6 +560,7 @@ margin-top: 30%;
 #section-3image1{
 margin-top: 35%;
 }
+}
 @media (max-width: 460px) {
 #section-3content2{
 margin-top: 35%;
@@ -641,3 +637,60 @@ div.nav_bar ul{
 display: none;
 }
 }
+@media (max-width: 1442px) {
+.about_content1 .description {
+	width: 55%;
+}
+}
+/* about page*/
+
+@media (max-width: 1024px) {
+	.about_content1 .description {
+		width: 100%;
+		text-align: center;
+	}
+	.about_content1 .desc_image {
+		float: none;
+		padding: 0;
+		text-align: center;
+	}
+}
+@media (max-width: 910px) {
+	#circle_2014, #circle_now {
+		margin:0;
+		margin-top: -52px;
+
+	}
+	.sub_wrap_left, .sub_wrap_last, .sub_wrap_right {
+		width: 100%; 
+		float: left;
+		border-left: 7px solid white;
+		border-right: none;
+		margin-left: 46px;
+	}
+	.sub_wrap_last {
+		height: 45px;
+	}
+	.circle{
+		left:-29px;
+	}
+	.sub_wrap_right .tooltip, .sub_wrap_left .tooltip {
+		right: 717px;
+		left:21px;
+		border-right: 20px solid #fff;
+		border-left: none;
+	}
+	.about_content2 .container_wrap .sub_wrap_right:nth-child(3) {
+		margin-top:0;
+	}
+	.sub_wrap_left .description, .sub_wrap_right .description  {
+		float: left;
+		width: 85%;
+		height: auto;
+		margin-left: 41px;
+	}
+	.about_content2 .sub_wrap_left:nth-child(2) .circle, .about_content2 .sub_wrap_left:nth-child(4) .circle{
+		left: -29px;
+	}
+}
+
