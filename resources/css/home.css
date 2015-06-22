@@ -318,7 +318,7 @@ color: #FFF;
 #homeWrap{
 margin-top: 62px;
 }
-input#field1 {
+input#mce-EMAIL {
 float: left;
 display: inline;
 height: 60px;
@@ -333,7 +333,7 @@ padding-left: 48px;
 outline: medium none;
 color: #FFF;
 }
-input#field2 {
+/*input#field2 {
 float: left;
 display: inline;
 height: 60px;
@@ -347,8 +347,8 @@ font-size: 20.3px;
 padding-left: 48px;
 outline: medium none;
 color: #FFF;
-}
-input#button-ok {
+}*/
+input#mc-embedded-subscribe {
 float: left;
 display: inline;
 height: 60px;
@@ -360,7 +360,14 @@ outline: medium none;
 padding: 0;
 margin: 0;
 }
-input#button-ok2 {
+/*#section-4 #mc_embed_signup_scroll{
+  margin-top: -90px;
+
+}*/
+#section-4 #content3{
+  padding-bottom: 55px;
+}
+/*input#button-ok2 {
 float: left;
 display: inline;
 height: 60px;
@@ -371,11 +378,14 @@ border-radius: 0px 30px 30px 0px;
 outline: medium none;
 padding: 0;
 margin: 0;
-}
+}*/
 input[value] {
 color: #FFF;
 font-family: 'Asap-Regular';
 font-size: 20.3px;
+}
+input[placeholder]{
+	color: #fff;
 }
 #content-2{
 width: 60%;
@@ -485,7 +495,7 @@ text-align: right;
 #section-4main {
 width: 70%;
 margin: 0px auto;
-padding: 5%;
+padding-top: 5%;
 position: relative;
 text-align: center;
 }
@@ -502,7 +512,6 @@ font-family: 'Asap-Regular';
 font-size: 24px;
 color: #FFF;
 text-align: center;
-padding-bottom: 17px;
 margin-top: 75px;
 }
 #sub-content2{
